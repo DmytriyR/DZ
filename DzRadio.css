@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css2?family=Galindo&display=swap);
+body{
+    font-family: "Galindo", sans-serif;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    h1{
+        margin-top: 150px;
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+    #reg_form{
+     padding: 20px 30px;
+     border-radius: 15px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+     display: inline-block;
+    }
+    #reg_form label{
+        display: block;
+        margin: 10px 0 5px;
+        font-size: 20px;
+    }
+    button{
+        display: block;
+        margin-left: 48px;
+        padding: 20px;
+        font-size: 20px;
+        font-family: "Galindo", sans-serif;
+        background-color: whitesmoke;
+        border-radius: 5px;
+        border: 0.5px solid black;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+       }
+    #color_form p{
+        margin-top: 20px;
+        font-size: 18px;
+        padding: 8px;
+    }
+    button:hover{
+        background-color: azure;
+    }
+    #color_form{
+        animation: my_anim 2s ease-in-out;
+    }
+    @keyframes my_anim{
+        0%{
+            opacity: 0%;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    #hide_btn{
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    #show_btn{
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    .hide{
+        display: none;
+    }
+    .red{
+        background-color: #f33535;
+    }
+    .lightBlue{
+        background-color: #D8E9F0;
+    }
+    .navy{
+        background-color: #334258;
+    }

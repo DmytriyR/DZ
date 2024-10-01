@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/DzRadio.css">
+</head>
+<body>
+    <h1>Registration</h1>
+    <form id="reg_form" class="form1">
+        <label for="firstname">Yor first name:</label>
+        <input type="text" id="firstname" required>
+        <label for="lastname">Your last name:</label>
+        <input type="text" id="lastname" required>
+        <label for="email">Your email:</label>
+        <input type="text" id="email" required>
+        <button id="submit_btn">Enter</button>
+    </form>
+    <form id="color_form">
+        <p>Chois a color:</p>
+        <label>
+           <input type="radio" name="color" value="red" id="red"/>
+           Red  
+        </label>
+        <label>
+            <input type="radio" name="color" value="white" id="lightBlue"/>
+            Light blue
+        </label>
+        <label>
+            <input type="radio" name="color" value="green" id="navy"/>
+            Navy
+        </label>
+    </form>
+    <button id="hide_btn">HIDE</button>
+    <button id="show_btn" class="hide">SHOW</button>
+    <script src="/DzRadio.js"></script>   
+</body>
+</html>
